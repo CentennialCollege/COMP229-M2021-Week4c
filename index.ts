@@ -5,7 +5,7 @@
  */
 
 import createError from 'http-errors';
-import app from './app';
+import app from './Server/Config/app';
 import debug from 'debug';
 debug('week-4c:server');
 import http from 'http';
