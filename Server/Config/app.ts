@@ -3,7 +3,7 @@ import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
-import mongoose, { MongooseDocument } from 'mongoose';
+import mongoose from 'mongoose';
 
 import indexRouter from '../Routes/index';
 
